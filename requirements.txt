@@ -1,0 +1,12 @@
+numpy
+pandas
+tqdm
+scikit-learn
+scikit-image
+matplotlib
+openpyxl
+xlsxwriter
+pyyaml
+torch
+torchvision
+rasterio; platform_system != "Windows" or python_version >= "3.8"

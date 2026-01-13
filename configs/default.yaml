@@ -1,0 +1,18 @@
+DATA_PATH: "/data/images"
+LABEL_PATH: "/data/labels"
+
+RESULTS_DIR: "comprehensive_ablation_results"
+IMG_SIZE: 256
+NUM_BANDS: 12
+SEED: 10
+THRESH: 0.5
+
+NUM_EPOCHS: 75
+BATCH_SIZE: 8
+LEARNING_RATE: 1e-4
+
+WGAN_GP_LAMBDA: 10.0
+L1_LOSS_WEIGHT: 100.0
+GRAD_CLIP_VALUE: 0.5
+
+DEVICE: "auto"   # auto | cpu | cuda
